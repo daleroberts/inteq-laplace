@@ -210,4 +210,5 @@ if plot_contours:
 else:
     plt.tripcolor(mesh, Z)
 
-plt.show()
+plt.savefig('sol.png', bb_inches='tight')
+#plt.show()
